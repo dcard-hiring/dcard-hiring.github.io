@@ -1,0 +1,261 @@
+ul {
+	padding-left: 15px;
+}
+.job {
+	height: 350px;
+	width: 100vw;
+	overflow: auto;
+	background-image: url(../img/web_jd_gradient.png), url(../img/web_jd_developer_pic.jpg);
+	background-size: cover;
+	padding: 70px;
+	padding-left: 150px;
+}
+
+.job.designer {
+	background-image: url(../img/web_jd_gradient.png), url(../img/web_jd_designer_pic.jpg);
+}
+
+.job.designer.ux-designer {
+	background-image: url(../img/web_jd_gradient.png), url(../img/ux_designer_pic.jpg);
+}
+
+.job.management {
+	background-image: url(../img/web_jd_gradient.png), url(../img/web_jd_designer_pic.jpg);
+}
+
+body {
+	margin: 0;
+	font-weight: 300;
+	font-family: 'PingFang TC', sans-serif;
+}
+
+
+.job-name-container{
+	padding-left: 15px;
+	margin-top: 30px;
+	border-left: 4px solid #f8ec3a;
+}
+
+.logo img{
+	height: 45px;
+}
+
+.exp{
+	font-size: 20px;
+	color: rgb(246, 234, 54);
+}
+
+.name {
+	font-size: 35px;
+	color: white;
+}
+.detail {
+	padding-top: 50px;
+	/*padding-bottom: 50px;*/
+}
+.detail .title span{
+	border-bottom: 4px solid rgb(246, 234, 54);
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+.detail .title{
+	padding-bottom: 25px;
+}
+
+.detail-item .text{
+	font-size: 20px;
+}
+.detail-item {
+	padding-bottom: 50px;
+}
+li{
+	color: rgb(246, 234, 54);
+}
+
+li p{
+	color: black;
+	font-size: 20px;
+}
+
+.apply-outer.more{
+	background: rgba(245, 245, 245, 1);
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.apply-outer{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.apply{
+	display: inline-block;
+	width: 170px;
+	height: 40px;
+	line-height: 38px;
+	text-align: center;
+	border-radius: 20px;
+	background: #006aa6;
+	font-size: 15px;
+	color: white;
+	letter-spacing: 2px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+.apply:link {
+	text-decoration: none;
+	background: rgba(23, 77, 105, 1);
+}
+
+.apply:visited {
+	text-decoration: none;
+	background: #006aa6;
+}
+
+.apply:active {
+	text-decoration: none;
+	background: rgba(23, 77, 105, 1);
+}
+
+.apply:active{
+	color: white;
+}
+.apply:visited{
+	color: white;
+}
+
+.apply:hover{
+    border: solid 1px black;
+	border-color: #00324e;
+	color: white;
+	background: #00324e;
+}
+
+.apply.reverse {
+	background: none;
+	color: #006aa6;
+	border: 1px solid #006aa6
+}
+
+
+
+.apply.reverse:link {
+	background: none;
+	color: #006aa6;
+	border: 1px solid #006aa6;
+}
+
+.apply.reverse:link {
+	background: none;
+	color: #006aa6;
+	border: 1px solid #006aa6;
+}
+
+.apply.reverse:hover {
+	background: #00324e;
+	color: white;
+	border: 1px solid #00324e;
+}
+
+
+.footer{
+	color: rgba(50, 150, 200 ,1);
+	align-items: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	-webkit-justify-content: center;
+	display: -webkit-flex; /* Safari */
+    -webkit-flex-direction: column; /* Safari 6.1+ */
+    display: flex;
+    flex-direction: column; 
+	height: 130px;
+	background: white;
+}
+.footer img{
+	height: 45px;
+	margin: 10px;
+}
+.footer p {
+	color: rgb(20, 70, 100);
+	padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+	.job-name-container{
+		padding-left: 0px;
+		margin-top: 30px;
+		border-left: none
+	}
+
+	.job {
+		height: 100vh;
+		width: 100vw;
+		overflow: auto;
+		background-image: linear-gradient(#004e89, rgba(1, 1, 1, 0)), url(../img/mobile_developer_jd_pic.jpg);
+		background-size: cover, 100% auto;
+		background-repeat: no-repeat, no-repeat;
+		background-position: left bottom, left bottom;
+		padding-top: 20vh;
+		padding-left: 0px;
+		padding-right: 0px;
+		text-align: center;
+	}
+
+	.job.designer{
+		background-image: linear-gradient(#004e89, rgba(1, 1, 1, 0)), url(../img/mobile_designer_jd_pic.jpg);
+	}
+
+	.exp{
+		color: rgb(246, 234, 54);
+		font-size: 20px;
+	}
+
+	.name {
+		font-size: 30px;
+		color: white;
+	}
+
+	.apply{
+		display: inline-block;
+		width: 40vw;
+		height: 40px;
+		line-height: 38px;
+		text-align: center;
+		border-radius: 20px;
+		background: rgba(23, 77, 105, 1);
+		font-size: 12px;
+		color: white;
+		letter-spacing: 1px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.detail .title span{
+		border-bottom: 4px solid rgb(246, 234, 54);
+		font-size: 25px;
+		padding-bottom: 10px;
+	}
+
+	.detail .title{
+		padding-bottom: 25px;
+	}
+
+	.detail-item .text{
+		font-size: 17px;
+	}
+	
+	.detail {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	li p{
+		color: black;
+		font-size: 17px;
+	}
+}
